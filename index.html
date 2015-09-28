@@ -11,19 +11,14 @@
     <title>INNOVATIA</title>
 
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
 
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
 
     <!-- Fonts from Google Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
-    
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
   </head>
 
   <body id="home" class="homepage">
@@ -76,11 +71,6 @@
 		<h1>About INNOVATIA</h1>
 		</div>
 			<div class="col-sm-6 col-md-12">
-				
-				<!---<h3>No. Of Rounds:&nbsp; 1</h3>
-
-				<h3>type: &nbsp;Individual as well as team event(upto 4 members)</h3>
-				<h3>Description:&nbsp;  Theme will be given to the participants on the spot. They have to choose a single topic and create any application related to it, which may be a web application ,android app or any other innovative application. The participants will have to report at the start and end of the event. They will get 24 hours to complete their application and they can make it at their homes . The idea behind the application ,its proximity to the theme and the look and feel of the application will serve as the criteria of evaluation. </h3>-->
 				<h2>
 					We at ABES believe that only learning isn't enough and implementation is one of the essential pillars to completing the cycle of learning.
 					<p>
@@ -88,7 +78,7 @@
 					So, this year at Genero'15 we present to you <b>Innovatia</b> a Hackathon aimed at giving those curious and budding minds a place to get together and Hack away,all the while having fun and making new friends.
 					</h2>
 					</p>
-					<blockquote>
+					<blockquote class="wow tada">
 					    I wish I could have attended hackathons as a student. As a mentor, I'm glad I can help the next generation of programmers discover their passions, learn new skills, try out concepts they have learned in class, and build real applications that real people can interact with.<p>John Britton (GitHub Education Lead)
 					</blockquote>
 				</h2>
@@ -99,13 +89,13 @@
 	    <section id="what">
         <div class="container">
             <div class="section-header">
-                <h1 class="section-title text-center wow fadeInDown">What is a Hackathon?</h1>
-                <p class="text-center wow fadeInDown">
-                <h2>
-                 A hackathon is an invention marathon. Programmers, designers, builders and more come together to learn, build, and share their creations over the course of a few days. Hackathons are not limited to computer science majors — anyone who has an interest in technology and is eager to learn can participate in a hackathon. 
-                 </h2>
-                </p>
+                <h1 class="section-title text-center wow fadeInLeft">What is a Hackathon?</h1>
             </div>
+            	<h3>
+                <p class="text-center wow fadeInRight">
+                 A hackathon is an invention marathon. Programmers, designers, builders and more come together to learn, build, and share their creations over the course of a few days. Hackathons are not limited to computer science majors — anyone who has an interest in technology and is eager to learn can participate in a hackathon.
+                </p>
+                </h3>
         </div>
     </section><!--/#what-->
 	<section id="rules">
@@ -164,7 +154,8 @@
 
 	    <section id="register">
         <div class="container">
-            <div class="row mt centered">
+            <div class="row mt centered section-title text-center wow lightSpeedIn">
+            Registrations
                 <!--<h2 class="section-title text-center wow fadeInDown">Registrations Opening Soon!!!</h2>-->
                 <p class="centered">
                 	  <a class="btn btn-primary btn-lg typeform-share button" href="https://abhishekchopra1796.typeform.com/to/JwR8Aa" data-mode="1" target="_blank">Register here</a>
@@ -200,12 +191,17 @@
 		
 	</div><!-- /container -->
 	
-
+<!-- Type form script with Their default CSS disabled because it was overriding bootstrap-->
 	<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!--Script to add wow.js support -->
+     <script src="assets/js/wow.min.js"></script>
+	  	<script>
+	  		new WOW().init();
+	  	</script>
   </body>
 </html>
